@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { Movie, MovieListResponse } from "../types/movie";
-import tmdbApi from "../services/tmdb";
+import tmdbApi from "../../services/tmdb";
 
 
 export const useMovies = (endpoint: string, query?: string) => {

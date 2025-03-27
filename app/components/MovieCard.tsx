@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Movie } from "../types/movie"
+import { Movie } from "../utilites/types/movie"
 import Image from "next/image";
 import { StarIcon } from "@heroicons/react/24/solid";
 
